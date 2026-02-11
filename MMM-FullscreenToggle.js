@@ -1,8 +1,8 @@
-Module.register("MMM-JsIncluder", {
+Module.register("MMM-FullscreenToggle", {
   defaults: {},
 
   getStyles() {
-    const css = ["MMM-JsIncluder.css"]
+    const css = ["MMM-FullscreenToggle.css"]
     return css
   },
 
@@ -16,7 +16,7 @@ Module.register("MMM-JsIncluder", {
         toggleButton.id = 'toggleButton';
 
         const img = document.createElement('img');
-        img.src = 'modules/images/icon-fullscreen-exit.png';
+        img.src = 'icon-fullscreen.png';
 
         toggleButton.appendChild(img);
         containerButton.appendChild(toggleButton);
