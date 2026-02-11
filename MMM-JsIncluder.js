@@ -1,7 +1,6 @@
 Module.register("MMM-JsIncluder", {
   defaults: {},
 
-
   getStyles() {
     const css = ["MMM-JsIncluder.css"]
     return css
