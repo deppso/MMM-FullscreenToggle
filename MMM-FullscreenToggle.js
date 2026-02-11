@@ -16,7 +16,7 @@ Module.register("MMM-FullscreenToggle", {
         toggleButton.id = 'toggleButton';
 
         const img = document.createElement('img');
-        img.src = 'icon-fullscreen.png';
+        img.src = 'modules/MMM-FullscreenToggle/icon-fullscreen.png';
 
         toggleButton.appendChild(img);
         containerButton.appendChild(toggleButton);
